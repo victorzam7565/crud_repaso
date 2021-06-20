@@ -9,7 +9,7 @@ function App () {
  ]
 
 //state
-const [users,setUsers]=useState(usersData)
+const [users,setUsers]=useState(usersData);
 
   return (
     <div className="container"  > 
@@ -20,7 +20,7 @@ const [users,setUsers]=useState(usersData)
         </div>
         <div className="flex-large">
            <h2> View users </h2>
-           <UserTable/>
+           <UserTable users={users}/>
            </div>
           </div>
         </div>
