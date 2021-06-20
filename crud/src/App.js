@@ -4,9 +4,9 @@ import {v4 as uuidv4} from 'uuid';
 function App () {
 
  const usersData= [
-  { id:uuidv4(), name : 'Tania', username: 'floppydiskette'},
-  { id:uuidv4() , name : 'Craig', username: 'siliconidolon'},
-  {id: uuidv4(), name: 'Ben', username: 'benisphere'},
+ // { id:uuidv4(), name : 'Tania', username: 'floppydiskette'},
+  //{ id:uuidv4() , name : 'Craig', username: 'siliconidolon'},
+  //{id: uuidv4(), name: 'Ben', username: 'benisphere'},
  ]
 
 //state
