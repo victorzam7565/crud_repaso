@@ -2,6 +2,9 @@ import React from 'react';
 
 const UserTable = (props) => {
   console.log (props.users)
+
+
+
   return ( 
 <table>
  <thead>
